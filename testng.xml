@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件">
+    <listeners>
+        <listener class-name="com.lemon.listener.TestResultListener"></listener>
+    </listeners>
+    <test name="线程1">
+        <classes>
+            <class name="com.lemon.testcases.LoginTest"/>
+            <class name="com.lemon.testcases.AddCartTest"/>
+        </classes>
+    </test>
+
+</suite>
